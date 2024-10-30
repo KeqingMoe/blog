@@ -5,9 +5,9 @@ import posts from "./posts";
  * VitePress 主题 Sakurairo 的配置文件
  */
 export default {
-    title: "Sakurairo",
-    titleTemplate: "Sakurairo 主题演示站点",
-    description: "正在努力移植到 VitePress！",
+    title: "刻晴♡マイワイフ",
+    titleTemplate: "刻晴♡マイワイフ",
+    description: "🥰🥰🥰",
     favicon: '/res/favicon.png',
     cover: {
         avatar: '/res/avatar.png',
@@ -22,12 +22,7 @@ export default {
         icon: '/res/icon.png',
         links: [
             { title: '首页', url: '/' },
-            { title: '演示页面', url: '/example' },
-            { title: '文章演示', url: '/posts/helloworld' },
-            { title: '自述文件', url: '/readme' },
-            { title: '404 页面演示', url: '/404' },
-            { title: '使用文档', url: 'https://docs.keqing.moe/iro/' },
-            { title: '源码', url: 'https://github.com/KeqingMoe/sakurairo' },
+            { title: '源码', url: 'https://github.com/KeqingMoe/blog' },
         ]
     },
     search: {
@@ -54,7 +49,7 @@ export default {
         ]
     },
     footer: {
-        content: '感谢您的使用！'
+        content: '<a href="https://icp.gov.moe/?keyword=20240904" target="_blank">萌ICP备20240904号</a> | <a href="https://nyaicp.xyz/?id=20241120" target="_blank">喵喵ICP备案 20241120号</a>'
     },
     style: {
         themeSkin: '#8e78c6',

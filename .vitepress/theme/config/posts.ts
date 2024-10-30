@@ -5,20 +5,20 @@ import { Iro } from "./types.mts";
  */
 export default [
     {
-        title: '你好，世界！',
-        url: '/posts/helloworld',
-        thumb: '/res/posts/helloworld.jpg',
+        title: '年仅 3 美元！搭建你自己的邮件服务器',
+        url: '/posts/3-usd-annually-personal-email-server',
+        thumb: '/res/posts/3-usd-annually-personal-email-server/0.png',
         date: '2024-10-4',
-        description: '在这篇文章中，我们深入探讨了“你好，世界！”这一短语的起源、意义以及它的重要性。从最初的 C 语言教科书到今天所有编程语言的入门教程，这个短语已经成为了传统。通过不同编程语言的示例，我们看到了“你好，世界！”的普遍性。这个短语提醒我们，每次我们开始学习新语言时，我们都在向一个充满可能性的新世界问好。'
+        description: '本文介绍了作者因需求增长而搭建个人邮件服务器的经过。作者购买了年费仅 3 美元的 Bytevirt 的 Email Hosting 服务，通过支付宝支付并配置 DNS ，使用控制面板设置邮箱账号。此外，作者还分享了在 VPS 上安装 Roundcube 服务，并利创建反向代理的技巧。'
     }, {
-        title: '演示页面',
-        url: '/example',
-        date: '2024-9-6',
-        description: '该页面通过展示 Markdown 格式的不同元素，包括标题、段落、列表、引用、超链接、代码块、表格和 LaTeX 公式，来呈现 Markdown 的多样化内容展示能力。页面涵盖了从一级到六级的标题、列表、引用内容、超链接、代码示例、表格布局、注音符号，以及 LaTeX 公式的渲染。这些丰富的格式和功能，为内容创建提供了强大支持。'
+        title: '星露谷联机 bug “这个角色属于另一位玩家” 解决方案',
+        url: '/posts/stardew-valley-multiplay-bug-fix',
+        date: '2024-7-25',
+        description: '这篇文章提供了一个关于星露谷物语联机模式中出现的“这个角色属于另一位玩家”bug 的解决方案。文章提供了两种解决方案：一种是手动编辑存档文件来解决，另一种是使用作者编写的程序自动修复存档。文章还包含了修复程序的源代码和下载链接。'
     }, {
-        title: '自述文件',
-        url: '/readme',
-        date: '2024-8-25',
-        description: 'Sakurairo 是一个从 WordPress 移植到 VitePress 的主题，它利用 Vue3 提高了二次开发的效率和可复用性。该主题适用于静态站点，响应速度快，易于部署。它提供了快速开始指南，包括安装依赖、开发模式运行、构建和本地部署的命令。用户可以自定义主题，包括基本配置和高级自定义，如插槽使用和内部组件重写。此外，它还支持站内搜索功能，并有详细的发展规划，包括更多样式实现、增强可扩展性、优化项目结构等。项目遵循 GPLv2 开源协议，鼓励社区参与和贡献。'
+        title: 'Nekoray 4 + Hysteria2 + 端口跳跃 + TUN 模式无法联网的解决方案',
+        url: '/posts/nekoray4-hysteria2-tun-port-hopping-solution',
+        date: '2024-7-17',
+        description: '本文讨论了在使用 Hysteria2 节点和 Nekoray 软件时遇到的网络连接问题。作者发现电信 QoS 导致数据传输受阻，且 v2rayN 不支持端口跳跃。通过实验和日志分析，作者发现 Nekoray 在开启端口跳跃时无法使用 TUN 模式。最终解决方案是让 Nekoray 负责端口跳跃，而 v2rayN 负责 TUN 模式，通过连接 Nekoray 的 SOCKS/HTTP 代理实现正常联网。'
     }
 ] satisfies Iro.Post[];
