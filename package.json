@@ -12,7 +12,7 @@
     "@astrojs/mdx": "^5.0.3",
     "astro": "^6.1.5",
     "katex": "^0.16.44",
-    "komorebi-theme": "^0.6.2",
+    "komorebi-theme": "^0.6.3",
     "rehype-katex": "^7.0.1",
     "remark-math": "^6.0.0"
   },
