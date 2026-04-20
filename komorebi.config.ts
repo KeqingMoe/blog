@@ -77,4 +77,16 @@ export default defineConfig({
   customCss: [
     "katex/dist/katex.min.css",
   ],
+  comments: {
+    repo: 'KeqingMoe/blog',
+    repoId: 'R_kgDOSHROyw',
+    category: 'Announcements',
+    categoryId: 'DIC_kwDOSHROy84C7PmT',
+    mapping: 'pathname',
+    strict: false,
+    reactionsEnabled: true,
+    emitMetadata: true,
+    inputPosition: 'top',
+    lang: 'zh-CN',
+  },
 });

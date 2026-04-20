@@ -13,8 +13,21 @@ export default defineConfig({
       [rehypeKatex, { strict: false }],
     ],
   },
+  vite: {
+    server: {
+      cors: true,
+    },
+  },
   integrations: [
     mdx(),
     komorebi(),
   ],
+  security: {
+    checkOrigin: false,
+    allowedDomains: [
+      {
+        hostname: 'giscus.app',
+      },
+    ],
+  },
 });
