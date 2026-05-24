@@ -69,6 +69,12 @@ const friends: KomorebiFriend[] = [
     url: "https://blog.rusty1e.top/",
     avatar: "https://blog.rusty1e.top/image/avatar.png",
   },
+  {
+    name: "nakido's blog",
+    description: 'a lad chasing after the wind',
+    url: 'https://nakido.me/',
+    avatar: 'https://nakido.me/assets/avatar.jpg',
+  },
 ];
 
 export default defineConfig({
