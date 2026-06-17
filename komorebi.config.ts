@@ -75,6 +75,12 @@ const friends: KomorebiFriend[] = [
     url: 'https://nakido.me/',
     avatar: 'https://nakido.me/assets/avatar.jpg',
   },
+  {
+    name: "Liskarm",
+    description: '南漂中',
+    url: 'https://zhongye1.github.io/',
+    avatar: 'https://zhongye1.github.io/favicon/favicon.ico',
+  },
 ];
 
 export default defineConfig({
