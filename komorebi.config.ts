@@ -81,6 +81,12 @@ const friends: KomorebiFriend[] = [
     url: 'https://zhongye1.github.io/',
     avatar: 'https://zhongye1.github.io/favicon/favicon.ico',
   },
+  {
+    name: "Duo 云站",
+    description: "MathForest官方🌲|程序及数学可视化✨|屑魔女游世界🔮",
+    url: "https://www.mduo.cloud/",
+    avatar: "https://www.mduo.cloud/elaina_q.jpg",
+  }
 ];
 
 export default defineConfig({
